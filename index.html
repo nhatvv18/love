@@ -58,9 +58,9 @@
         padding: 0;
         margin: 0;
         line-height: 1;
-        text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c,
-          0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d,
-          0 0 100px #ff417d, 0 0 150px #ff417d;
+        text-shadow: 0 0 10px #00ff2f, 0 0 20px #00ff2f, 0 0 30px #00ff2f,
+          0 0 40px #41ff90, 0 0 70px #41ff90, 0 0 80px #41ff90,
+          0 0 100px #41ff90, 0 0 150px #41ff90;
       }
 
       .title h1 span {
@@ -268,7 +268,7 @@
           this.h = $(window).height();
           this.direction = this.random > 0.5 ? -1 : 1;
           this.radius = 1 + 3 * this.random;
-          this.color = "#ff417d";
+          this.color = "#41ff90";
 
           this.ID = setInterval(
             function () {
@@ -339,7 +339,7 @@
           this.w = $(window).width();
           this.h = $(window).height();
           this.radius = 1 + this.random * 0.5;
-          this.color = "#4EFCFE"; //this.random > .5 ? "#a9722c" : "#FFFED7"
+          this.color = "#41ff90"; //this.random > .5 ? "#a9722c" : "#FFFED7"
         }
 
         render() {
@@ -657,7 +657,7 @@
           }
           context.closePath();
           // create the fill
-          context.fillStyle = "#ea80b0";
+          context.fillStyle = "#41ff90";
           context.fill();
           // create the image
           var image = new Image();
